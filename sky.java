@@ -44,10 +44,6 @@ public class sky extends JComponent implements Runnable
            page.drawLine(baseX+600, baseY, baseX, baseY);
            page.fillRect(baseX,baseY,600,-height);
            //Creates a rectangle which is placed in the backround and drawn over
-           double moon_x = moon_x.xcoordinate()/2.0 + moon_x.xcoordinate()/2.0*Math.cos(Math.PI+2.0*Math.PI*t_idx);
-	   double moon_y =  moon_y.ycoordinate()/2.0 +  moon_y.ycoordinate()/2.0*Math.sin(Math.PI+2.0*Math.PI*t_idx);
-	   page.setColor(Color.gray);
-	   page.fillOval((int) moon_x, (int) moon_y, 50, 50);
 
           
           
