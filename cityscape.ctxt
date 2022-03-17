@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=cityscape
+comment1.params=shade
+comment1.target=cityscape(java.awt.Color)
+comment2.params=page
+comment2.target=void\ road(java.awt.Graphics)
+comment3.params=page
+comment3.target=void\ sky(java.awt.Graphics)
+comment4.params=page\ height
+comment4.target=void\ build(java.awt.Graphics,\ int)
+comment5.params=c
+comment5.target=void\ draw(int)
+numComments=6
